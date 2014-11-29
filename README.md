@@ -4,10 +4,9 @@ languages: ruby
 type: interactive practice
 ---
 
-##Interactive Practice: Model-View-Controller
+##Sinatra Template
 
-Fork and clone this repository and follow along in lecture!
+Fork and clone this repository to use as a template for your final project.
 
-(WIP)
 
 
