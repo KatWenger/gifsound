@@ -1,6 +1,6 @@
 
-body {
-	font: bold large cursive;
+body { color: #333333;font-family: Georgia, Serif;}
+ {
 	border:1px solid #000000;
-	background-color:#ff9900;
+	background-color: white; 
 }
