@@ -13,7 +13,7 @@ class MyApp < Sinatra::Base
   	api_response = Net::HTTP.get(uri)
   	hash= JSON.parse(api_response)
   	@image = hash["data"]["image_url"] 
-       words= ["Jazz","Electronic","Country","Pop","Metal","Indie","Hip Hop","Rap","Rock","K Pop","Classical","Death Metal","Opera","Acoustic"]
+       words= ["Jazz","Electronic","Country","Pop","Metal","Indie","Hip Hop","Rap","Rock","K Pop","Classical","Death Metal","Opera","Acoustic","Folk","Blues"]
 
    artist = RSpotify::Artist.search(words.sample).first
 

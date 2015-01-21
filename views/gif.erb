@@ -1,20 +1,21 @@
 <!doctype html>
 <html>
 <head>
+	<style>
+	body { color: #000000;font-family: Georgia, Serif; background: url(<%=@image%>)no-repeat; background-size: 100%;}
+	</style>
 	<title> Gif Sound </title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<img src= "<%=@image%>" class="gif">
+	
 	<h1> <audio controls
   src= <%= @song_play %> >
 Your user agent does not support the HTML5 Audio element
 </audio> </h1>
-<h1>  <img src="<%= @image %>" height="400" width="400" > </h1>
 </body>
 	
-
 </html>
 
 
